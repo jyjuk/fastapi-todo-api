@@ -18,7 +18,7 @@
 ##  Встановлення
 
 ```bash
-git clone https://github.com/your-username/fastapi-todo-api.git
+git clone https://github.com/jyjuk/fastapi-todo-api.git
 cd fastapi-todo-api
 python -m venv venv
 source venv/bin/activate  # або venv\Scripts\activate на Windows
@@ -52,8 +52,9 @@ fastapi_todo/
 
 
 ## Реалізовані ендпоінти
-Метод	Шлях	     Опис
-GET	    /tasks	     Отримати список задач
-POST	/tasks	     Створити нову задачу
-PUT  	/tasks/{id}	 Оновити задачу за ID
-DELETE	/tasks/{id}	 Видалити задачу за ID
+| Метод   | Шлях           | Опис                     |
+|---------|----------------|--------------------------|
+| GET     | `/tasks`       | Отримати список задач    |
+| POST    | `/tasks`       | Створити нову задачу     |
+| PUT     | `/tasks/{id}`  | Оновити задачу за ID     |
+| DELETE  | `/tasks/{id}`  | Видалити задачу за ID    |
